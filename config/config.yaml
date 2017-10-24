@@ -1,0 +1,13 @@
+# Configuration for Database
+database:  
+  rdbms: postgres
+  user: jayma
+  pass: jayma12345
+  ip: localhost
+  port: 5432
+  name: jayma
+  sslmode: disable
+
+# Server
+server:
+  port: 3000

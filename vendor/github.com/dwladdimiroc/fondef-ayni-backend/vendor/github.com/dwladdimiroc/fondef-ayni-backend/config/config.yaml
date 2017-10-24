@@ -1,0 +1,22 @@
+# Configuration for Database
+database:  
+  rdbms: postgres
+  user: voluntarios
+  pass: 12345
+  ip: localhost
+  port: 5433
+  name: coordinacion_voluntarios
+  sslmode: disable
+
+# Configuration for Files
+files:
+  uri: /home/daniel/Fondef/voluntarios/backend/files/
+
+# Server
+server:
+  port: 3000
+
+# Librería de asertividad
+asertividad:
+  jar: /home/daniel/Fondef/voluntarios/backend/jar/clasificadores-1.0.jar
+  main: cl.citiaps.fondef.desastres.asertividad.AsertivenessClassifier

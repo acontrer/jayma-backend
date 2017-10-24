@@ -1,0 +1,63 @@
+hash: b51d215addc185cdf777721f018c86653051cf4ee168926c2ac711ebb2adad09
+updated: 2017-10-12T13:51:01.771499129-03:00
+imports:
+- name: github.com/dwladdimiroc/fondef-ayni-backend
+  version: 846c9b659ccb0f721b1c137074237c45bb129610
+  subpackages:
+  - api
+  - auth
+  - db
+  - models
+  - routes
+  - utils
+- name: github.com/gin-contrib/cors
+  version: cf4846e6a636a76237a28d9286f163c132e841bc
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
+- name: github.com/gin-gonic/gin
+  version: d459835d2b077e44f7c9b453505ee29881d5d12d
+  subpackages:
+  - binding
+  - render
+- name: github.com/golang/protobuf
+  version: 130e6b02ab059e7b717a096f397c5b60111cae74
+  subpackages:
+  - proto
+- name: github.com/jinzhu/gorm
+  version: 5174cc5c242a728b435ea2be8a2f7f998e15429b
+- name: github.com/jinzhu/inflection
+  version: 1c35d901db3da928c72a72d8458480cc9ade058f
+- name: github.com/lib/pq
+  version: 017e4c14d80628353eaee677a1aeffe47a10c0dc
+  subpackages:
+  - oid
+- name: github.com/mattn/go-isatty
+  version: a5cdd64afdee435007ee3e9f6ed4684af949d568
+- name: github.com/NaySoftware/go-fcm
+  version: 8b8dc5883a3bfd52fd4d296d2ab89aa1b703aed4
+- name: github.com/ugorji/go
+  version: 50530d8d1478c8bbfbdb18cbf5465db9aee6ada4
+  subpackages:
+  - codec
+- name: golang.org/x/net
+  version: a04bdaca5b32abe1c069418fb7088ae607de5bd0
+  subpackages:
+  - context
+  - context/ctxhttp
+- name: golang.org/x/sys
+  version: ebfc5b4631820b793c9010c87fd8fef0f39eb082
+  subpackages:
+  - unix
+- name: googlemaps.github.io/maps
+  version: 3f9aa4e0af699da014cb9b3737ad4e7a2f3386ff
+  subpackages:
+  - internal
+- name: gopkg.in/appleboy/gin-jwt.v2
+  version: f7347d7c16fc8297bf5b7215b9e4847a5ca05d90
+- name: gopkg.in/dgrijalva/jwt-go.v3
+  version: d2709f9f1f31ebcda9651b03077758c1f3a0018c
+- name: gopkg.in/go-playground/validator.v8
+  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
+- name: gopkg.in/yaml.v2
+  version: eb3733d160e74a9c7e442f435eb3bea458e1d19f
+testImports: []
